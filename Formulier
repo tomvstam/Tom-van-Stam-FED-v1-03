@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Frontend</title>
+</head>
+<body>
+<h1>Aanmelden</h1>
+<p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+<p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+Amsterdam.</p>
+<p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen.</p>
+
+Contactgegevens:
+
+<form>
+    <label>Naam</label>
+    <input type="text" id="name" name="name"/>
+    <label>Bedrijf</label>
+    <input type="text" id="bedrijf" name="bedrijf"/>
+    <label>Adres</label>
+    <input type="text" id="adres" name="adres"/>
+    <label>Postcode</label>
+    <input type="text" id="postcode" name="postcode"/>
+    <label>Plaats</label>
+    <input type="text" id="plaats" name="plaats"/>
+    <label>Telefoon</label>
+    <input type="text" id="telefoon" name="telefoon"/>
+    <label>Email</label>
+    <input type="text" id="email" name="email"/>
+    Ik wil mij aanmelden:
+    <input type = "radio"  id = "project" name = "aanmelden" />
+    <label>Voor een project</label>
+    <input type = "radio" id = "stage" name = "aanmelden" />
+    <label>Als stagebedrijf</label>
+</form>
+<form>
+<h1>Project</h1>
+  <fieldset>
+    <legend>Project</legend>
+    <label>Titel:</label><input type="text">
+    <label>Opdrachtomschrijving:</label><input type="text">
+    <label>Doelgroepomschrijving:</label><input type="text">
+    <label>Doelstelling/intentie van het project:</label><input type="text">
+    <label>Looptijd:</label><input type="text">
+    <label>Deadline:</label><input type="text">
+    Geschikt voor:
+    <label>eerstejaars studenten</label><input type="radio" id = "ee" name = "jaar">
+    <label>tweedejaars studenten</label><input type="radio" id = "tw" name = "jaar">
+    <label>derdejaars studenten</label><input type="radio" id = "de" name = "jaar">
+    <label>afstudeer studenten</label><input type="radio" id = "af" name = "jaar">
+    <label>onbekend</label><input type="radio" id = "on" name = "jaar">
+    <label>Opmerking:</label><input type="text">
+  </fieldset>
+</form>
+<h1>Stage</h1>
+<form>
+  <fieldset>
+    <legend>Stage</legend>
+    Geschikt voor:
+    <label>eerstejaars studenten</label><input type="radio" id = "stage1" name = "studenten">
+    <label>tweedejaars studenten</label><input type="radio" id = "stage2" name = "studenten">
+    <label>onbekend</label><input type="radio" id = "stageon" name = "stud">
+    Hoe lang is de stage?
+    <label>10 weken</label><input type="radio" id = "10week" name = "weken">
+    <label>20 weken</label><input type="radio" id = "20week" name = "weken">
+    <label>Begindatum:</label><input type="date">
+    <label>Beschrijving werkzaamheden::</label><input type="text">
+    Beschrijving stagebedrijf:
+    <label>Doelstelling/intentie van het project:</label><input type="text">
+    <label>Bedrijfsnaam:</label><input type="text">
+    <label>Adres:</label><input type="text">
+    <label>Postcode:</label><input type="text">
+    <label>Plaats:</label><input type="text">
+    <label>Sector:</label><input type="text">
+    <label>Core Business:</label><input type="text">
+    <label>Opmerking:</label><input type="text">
+  </fieldset>
+</form>
+</body>
+</html>
