@@ -1,11 +1,12 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="utf-8">
   <title>Frontend</title>
 </head>
 <body>
+<section>
 <h1>Aanmelden</h1>
 <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
 Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
@@ -15,7 +16,7 @@ Amsterdam.</p>
 <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
 Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
 Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen.</p>
-
+</section>
 Contactgegevens:
 
 <form>
@@ -30,16 +31,14 @@ Contactgegevens:
     <label>Plaats</label>
     <input type="text" id="plaats" name="plaats"/>
     <label>Telefoon</label>
-    <input type="text" id="telefoon" name="telefoon"/>
+    <input type="tel" id="telefoon" name="telefoon"/>
     <label>Email</label>
-    <input type="text" id="email" name="email"/>
+    <input type="email" id="email" name="email"/>
     Ik wil mij aanmelden:
     <input type = "radio"  id = "project" name = "aanmelden" />
     <label>Voor een project</label>
     <input type = "radio" id = "stage" name = "aanmelden" />
     <label>Als stagebedrijf</label>
-</form>
-<form>
 <h1>Project</h1>
   <fieldset>
     <legend>Project</legend>
@@ -57,9 +56,7 @@ Contactgegevens:
     <label>onbekend</label><input type="radio" id = "on" name = "jaar">
     <label>Opmerking:</label><input type="text">
   </fieldset>
-</form>
 <h1>Stage</h1>
-<form>
   <fieldset>
     <legend>Stage</legend>
     Geschikt voor:
@@ -81,6 +78,7 @@ Contactgegevens:
     <label>Core Business:</label><input type="text">
     <label>Opmerking:</label><input type="text">
   </fieldset>
+  <input type="submit" value="Verzenden">
 </form>
 </body>
 </html>
